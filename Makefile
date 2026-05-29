@@ -9,4 +9,7 @@ all:
 fclean:
 	rm -rf $(VENV)
 
-.PHONY: all fclean
+active:
+	. $(VENV)/bin/activate
+
+.PHONY: all fclean active
