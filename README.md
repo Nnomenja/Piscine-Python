@@ -17,6 +17,49 @@ The Piscine is an intensive bootcamp focused on:
 
 ---
 
+## ✅ Prerequisites
+
+- Python 3
+- `make`
+- `pip`
+
+---
+
+## ⚙️ Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Nnomenja/Piscine-Python.git
+cd piscine-python
+```
+
+Create the virtual environment and install the tooling:
+
+```bash
+make all
+```
+
+Activate the virtual environment:
+
+```bash
+. .venv/bin/activate
+```
+
+Run the `lint` target from the `Makefile`:
+
+```bash
+make lint  # verify the code style with flake8 and mypy
+```
+
+Run the `make fclean` target to clean the repository:
+
+```bash
+make fclean  # clean the repository
+```
+
+---
+
 ## 📚 Modules
 
 | Module | Topics |
@@ -55,6 +98,7 @@ python-piscine/
 ├── module_10/
 │
 └── README.md
+└── Makefile
 ```
 
 ---
@@ -72,17 +116,10 @@ python-piscine/
 
 ## 🚀 Usage
 
-Clone the repository:
-
-```bash
-git clone [https://github.com/nnome/python-piscine.git](https://github.com/Nnomenja/Piscine-Python.git
-cd python-piscine
-```
-
 Run an exercise:
 
 ```bash
-python3 module_00/ex00/main.py
+python3 module_00/ex0/ft_hello_garden.py
 ```
 
 
