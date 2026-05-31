@@ -12,7 +12,7 @@ progressing to Object-Oriented Programming
 | Exercise | Topic | Status |
 |----------|--------|--------|
 | ex0 | Python program starting point | ✅ |
-| ex1 | |  |
+| ex1 | Classes/Objects, class properties | ✅ |
 | ex2 | |  |
 | ex3 | |  |
 | ex4 | |  |
