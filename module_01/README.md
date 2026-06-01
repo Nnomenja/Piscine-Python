@@ -13,7 +13,7 @@ progressing to Object-Oriented Programming
 |----------|--------|--------|
 | ex0 | Python program starting point | ✅ |
 | ex1 | Classes/Objects, class properties | ✅ |
-| ex2 | |  |
+| ex2 | encapsulation, accessors, methods | ✅ |
 | ex3 | |  |
 | ex4 | |  |
 | ex5 | |  |
